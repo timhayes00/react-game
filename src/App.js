@@ -10,11 +10,11 @@ class App extends Component {
     highScore: 0
   }
 
-  addScore(props) {
+  addScore = () => {
     const archerChars = this.state.archerChars.filter(archerChar => archerChar.selected > 0)
-    //this.setState ({ score = archerChars.length()} )
-    if (this.score > this.highScore){
-      this.highScore = this.score
+    this.setState ({ score: this.state.score + 1})
+    if (this.state.score > this.state.highScore){
+      this.setState ({highScore: this.state.score})
     }
     const shouldReset = this.state.archerChars.filter(archerChar => archerChar.selected > 0)
     if (shouldReset){
