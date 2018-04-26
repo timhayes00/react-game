@@ -1,25 +1,40 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Array from './Array'
+import ArcherCard from './components/ArcherCard'
+import Wrapper from './components/Wrapper'
+import archerChars from './archerChars.json'
 
 class App extends Component {
+  state = {
+    archerChars,
+    score: 0,
+    highScore: 0
+  }
+
+  addScore(props) {
+    const archerChars = this.state.archerChars.filter(archerChar => archerChar.selected > 0)
+    //this.setState ({ score = archerChars.length()} )
+    if (this.score > this.highScore){
+      this.highScore = this.score
+    }
+    const shouldReset = this.state.archerChars.filter(archerChar => archerChar.selected > 0)
+    if (shouldReset){
+      //resetGame() 
+    }
+  }
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to the Archer themed memory guessing game</h1>
-        </header>
-        {this.state.array.map((item, index) => {
-          return (
-            <div>
-              <img src = {item} />
-            </div>
-          )
-        })
-      }
-      </div>
+      <Wrapper>
+        {this.state.archerChars.map(archerChar => (
+          <ArcherCard
+            id={archerChar.id} 
+            selected={archerChar.selected} 
+            name={archerChar.name} 
+            image={archerChar.imageSource}
+            key={archerChar.key}
+          />
+        ))}
+      </Wrapper>
     )
   }}
   

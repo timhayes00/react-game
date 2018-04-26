@@ -1,0 +1,93 @@
+[
+    {
+        "id": 0,
+        "key": 0,
+        "selected": 0,
+        "imageSource": "https://pbs.twimg.com/profile_images/844651543701983232/el0y7PRJ_400x400.jpg",
+        "name": "archerWithHat"
+    },
+    {
+        "id": 1,
+        "key": 1,
+        "selected": 0,
+        "imageSource": "https://static5.comicvine.com/uploads/original/11131/111311925/5814655-91r809lh.jpg",
+        "name": "archerShavingHungover"
+    },
+    {
+        "id": 2,
+        "key": 2,
+        "selected": 0,
+        "imageSource": "http://agentpalmer.com/wp-content/uploads/2014/08/Answer-I-will-shoot-him-in-the-face.jpg",
+        "name": "archerFaceShooting"
+    },
+    {
+        "id": 3,
+        "key": 3,
+        "selected": 0,
+        "imageSource": "https://cdn3.volusion.com/stlse.vzhek/v/vspfiles/photos/408441-4.jpg?1422879510",
+        "name": "pamDolphin"
+    },
+    {
+        "id": 4,
+        "key": 4,
+        "selected": 0,
+        "imageSource": "https://cdn.shopify.com/s/files/1/1111/4912/products/Cheryl-Tunt-DUH_63c06a21-d114-494b-9590-ee6dfecf6d20.jpg?v=1502579775",
+        "name": "cherylDuh"
+    },
+    {
+        "id": 5,
+        "key": 5,
+        "selected": 0,
+        "imageSource": "https://vignette.wikia.nocookie.net/archer/images/6/65/Babou.png/revision/latest/scale-to-width-down/250?cb=20150318222646",
+        "name": "babou"
+    },
+    {
+        "id": 6,
+        "key": 6,
+        "selected": 0,
+        "imageSource": "https://usercontent2.hubstatic.com/11839425.jpg",
+        "name": "mallory"
+    },
+    {
+        "id": 7,
+        "key": 7,
+        "selected": 0,
+        "imageSource": "https://s-media-cache-ak0.pinimg.com/originals/d1/a3/43/d1a343654713bb65d0c1dc091d655ada.jpg",
+        "name": "Krieger"
+    },
+    {
+        "id": 8,
+        "key": 8,
+        "selected": 0,
+        "imageSource": "https://res.cloudinary.com/teepublic/image/private/s--NSBUcA55--/t_Preview/b_rgb:c62b29,c_limit,f_jpg,h_630,q_90,w_630/v1475242693/production/designs/708122_1.jpg",
+        "name": "lanaaaaaaaa"
+    },
+    {
+        "id": 9,
+        "key": 9,
+        "selected": 0,
+        "imageSource": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/p-archer-adam-reed.jpg",
+        "name": "ray"
+    },
+    {
+        "id": 10,
+        "key": 10,
+        "selected": 0,
+        "imageSource": "https://i3.cpcache.com/product_zoom/1966358477/archer_cyril_jeezy_petes_womens_boy_brief.jpg?color=FuchsiaPink&height=460&width=460&padToSquare=true",
+        "name": "cyril"
+    },
+    {
+        "id": 11,
+        "key": 11,
+        "selected": 0,
+        "imageSource": "https://vignette.wikia.nocookie.net/archer/images/2/20/Cecil_Tunt.PNG/revision/latest?cb=20130406082309",
+        "name": "cecil"
+    },
+    {
+        "id": 12,
+        "key": 12,
+        "selected": 0,
+        "imageSource": "http://i.imgur.com/PwJ0W1N.jpg",
+        "name": "barry"
+    }
+]
