@@ -22,6 +22,17 @@ class App extends Component {
     }
   }
 
+  shuffleCards(){
+    //will complete after getting the static game working
+    //psuedocode:
+    // let newOrder = []
+    // let orginialOrder = this.state.archerChars.map()
+    // for (i=originalOrder.length; i>0; i--){
+    //   const randomPick = Math.floor(Math.random()*i)
+    //   newOrder.push(originalOrder.splice(randomPick,1))
+    // }
+  }
+
   render() {
     return (
       <Wrapper>
