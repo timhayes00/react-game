@@ -41,7 +41,7 @@ class App extends Component {
             id={archerChar.id} 
             selected={archerChar.selected} 
             name={archerChar.name} 
-            image={archerChar.imageSource}
+            image={archerChar.image}
             key={archerChar.key}
           />
         ))}
