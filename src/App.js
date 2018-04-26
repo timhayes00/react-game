@@ -18,7 +18,7 @@ class App extends Component {
     }
     const shouldReset = this.state.archerChars.filter(archerChar => archerChar.selected > 0)
     if (shouldReset){
-      //resetGame() 
+      //shuffleCards() 
     }
   }
 
